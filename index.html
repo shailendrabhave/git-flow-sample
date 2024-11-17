@@ -20,6 +20,7 @@
         background-color: rgb(61, 61, 61);
       }
       .bg {
+        padding-top: 100px;
         /* The image used */
         background-image: url('./img_parallax.jpg');
 
@@ -30,6 +31,15 @@
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+      }
+      .header {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        background-color: #2f342f;
+        color: white;
+        text-align: center;
       }
       .footer {
         position: fixed;
@@ -44,6 +54,9 @@
   </head>
   <body class="bg">
     <div class="jumbotron">
+      <div class="header">
+        <h5>Custom Header</h5>
+      </div>
       <div class="container">
         <h1>Git Flow Sample</h1>
       </div>
